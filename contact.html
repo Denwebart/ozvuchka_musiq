@@ -1,9 +1,13 @@
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-  <head>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Muziq theme</title>
@@ -14,23 +18,17 @@
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/colors/color-yellow.css">
-    <link rel="stylesheet" href="styles/colors/color-lightblue.css">
-    <link rel="stylesheet" href="styles/colors/color-purple.css">
-    <link rel="stylesheet" href="styles/colors/color-green.css">
-    <link rel="stylesheet" href="styles/colors/color-militar.css">
-    <link rel="stylesheet" href="styles/colors/color-caqui.css">
-    <link rel="stylesheet" href="styles/colors/color-red.css">
+
     <script src="scripts/vendor/modernizr.js"></script>
-  </head>
-  
-  <body data-spy="scroll" data-target="#navbar-muziq" data-offset="80">
-    
-    <!-- LOADER -->
-    <div id="mask">
-        <div class="loader">
-          <!-- <img src="images/loading.gif" alt='loading'> -->
-          <div class="cssload-container">
+</head>
+
+<body data-spy="scroll" data-target="#navbar-muziq" data-offset="80">
+
+<!-- LOADER -->
+<div id="mask">
+    <div class="loader">
+        <!-- <img src="images/loading.gif" alt='loading'> -->
+        <div class="cssload-container">
             <div class="cssload-shaft1"></div>
             <div class="cssload-shaft2"></div>
             <div class="cssload-shaft3"></div>
@@ -42,179 +40,189 @@
             <div class="cssload-shaft9"></div>
             <div class="cssload-shaft10"></div>
         </div>
+    </div>
+</div>
+
+<!-- HEADER -->
+<header id="jHeader">
+    <nav class="navbar navbar-default" role="navigation">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Desplegar navegación</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index-multipages.html"><img src="images/logo.svg" alt="logo"></a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-ex1-collapse" id="navbar-muziq">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index-multipages.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li>
+                    <a href="artists.html">Услуги</a>
+                    <!--<ul>-->
+                    <!--<li><a href="shop-multipages.html">Shop</a></li>-->
+                    <!--</ul>-->
+                </li>
+                <li><a href="blog.html">Новости</a></li>
+                <li><a href="gigs.html">Оборудование</a></li>
+                <li><a href="albums.html">Партнеры</a></li>
+                <li><a href="gallery.html">Галерея</a></li>
+                <li class="active"><a href="contact.html">Контакты</a></li>
+            </ul>
+        </div>
+
+    </nav>
+</header>
+
+<!-- INTRO -->
+<section class="intro intro-mini full-width jIntro bg-blog" id="anchor00">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="text-center">
+                    <h1 class="primary-title">Контакты</h1>
+                </div>
+            </div>
         </div>
     </div>
-    
-    <div class="color-picker">
-      <div class="picker-btn"></div>
-      <div class="pickerTitle">Style Switcher</div>
-      <div class="pwrapper">
-        <div class="pickersubTitle"> Color scheme </div>
-        <div class="picker-original"></div>
-        <div class="picker-yellow"></div>
-        <div class="picker-lightblue"></div>
-        <div class="picker-purple"></div>
-        <div class="picker-green"></div>
-        <div class="picker-militar"></div>
-        <div class="picker-caqui"></div>
-        <div class="picker-red"></div>
-        <div class="clear nopick"></div>
-      </div>
-    </div> 
+</section>
 
-    <!-- HEADER -->
-    <header id="jHeader">
-      <nav class="navbar navbar-default" role="navigation">
-        
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" 
-                  data-target=".navbar-ex1-collapse">
-            <span class="sr-only">Desplegar navegación</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index-multipages.html"><img src="images/logo_musiq.svg" alt="logo"></a>
-        </div>
-       
-        <div class="collapse navbar-collapse navbar-ex1-collapse" id="navbar-muziq">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="index-multipages.html">Home</a></li>
-            <li><a href="artists.html">Artists</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="albums.html">Albums</a></li>
-            <li><a href="gigs.html">Gigs</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="blog-multipages.html">Blog</a></li>
-            <li><a href="shop-multipages.html">Shop</a></li>
-            <li class="active"><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-
-      </nav>
-    </header>
-
-    <!-- INTRO -->
-    <section class="intro intro-mini full-width jIntro bg-blog" id="anchor00">
-      <div class="container">
+<!-- CONTACTS -->
+<section class="section inverse-color contact" id="anchor08">
+    <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            <div class="text-center">
-              <h1 class="primary-title">Contact</h1>
+            <div class="col-md-8 col-md-offset-2">
+                <div class="voffset70"></div>
+                <div class="separator-icon">
+                    <i class="fa fa fa-microphone"></i>
+                </div>
+                <div class="voffset30"></div>
+                <p class="pretitle">get it touch</p>
+                <div class="voffset20"></div>
+                <h2 class="title">say hello!</h2>
+                <div class="voffset80"></div>
             </div>
-          </div>
         </div>
-      </div>
-    </section>
+        <div class="row">
+            <div class="col-sm-6 col-md-7">
+                <form action="mail.php" method="post" id="contactform" class="contact-form">
+                    <div class="form-group">
+                        <label class="title small" for="name">Имя:</label>
+                        <input type="text" placeholder="Ваше имя" name="name" id="name" class="text name required">
+                    </div>
 
-    <!-- CONTACTS -->
-    <section class="section inverse-color contact" id="anchor08">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2">
-            <div class="voffset70"></div>
-            <div class="separator-icon">
-              <i class="fa fa fa-microphone"></i>
-            </div>
-            <div class="voffset30"></div>
-            <p class="pretitle">get it touch</p>
-            <div class="voffset20"></div>
-            <h2 class="title">say hello!</h2>
-            <div class="voffset80"></div>
-          </div>
-        </div>       
-        <div class="row">
-          <div class="col-sm-6 col-md-7">
-            <form action="mail.php" method="post" id="contactform" class="contact-form">
-              <div class="form-group">
-                <label class="title small" for="name">Your name:</label>
-                <input type="text" placeholder="Full Name" name="name" id="name" class="text name required">
-              </div>
-              
-              <div class="form-group">
-                <label class="title small" for="email">Your email:</label>
-                <input type="email" placeholder="Your Email" name="email" id="email" class="text email required">
-              </div>
-              
-              <div class="form-group">
-                <label class="title small" for="message">Your message:</label>
-                <textarea name="message" class="text area required" id="message" placeholder="Type Message"></textarea>
-              </div>
+                    <div class="form-group">
+                        <label class="title small" for="email">Email:</label>
+                        <input type="email" placeholder="Ваш email" name="email" id="email"
+                               class="text email required">
+                    </div>
 
-              <!-- <div class="formSent"><p><strong>Your Message Has Been Sent!</strong> Thank you for contacting us.</p></div> -->
-              <input type="submit" value="Submit" class="btn rounded">   
-              <div class="voffset80"></div>            
-            </form>
-          </div>
-          <div class="col-sm-6 col-md-5">
-            <div class="col-contact">
-              <h4 class="title small">Music studio</h4>
-              <div class="voffset20"></div>
-              <p>1814 NE Miami Gardens Drive Suite #1007</p>
-              <p>North Miami Beach, FL, 333179</p>
-              <ul class="contact">
-                <li><i class="fa fa-phone"></i> 1.800.987.7890</li>
-                <li><i class="fa fa-envelope"></i> booking@visionmax.com</li>
-              </ul>
-              <h4 class="title small">Get socialized with us</h4>
-              <ul class="social-links">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-              </ul>
+                    <div class="form-group">
+                        <label class="title small" for="message">Сообщение:</label>
+                        <textarea name="message" class="text area required" id="message" placeholder="Ваш вопрос или пожелание"></textarea>
+                    </div>
+
+                    <!--<div class="formSent"><p><strong>Ваше сообщение было отправлено!</strong> Спасибо, что связались с нами.</p></div>-->
+                    <input type="submit" value="Отправить" class="btn rounded">
+                    <div class="voffset80"></div>
+                </form>
             </div>
-          </div>
+            <div class="col-sm-6 col-md-5">
+                <div class="col-contact">
+                    <h4 class="title small">Роман Ракитянский ( Romankin )</h4>
+                    <p>Должность</p>
+                    <ul class="contact">
+                        <li><i class="fa fa-phone"></i> +38 (067) 737-99-17</li>
+                        <li><i class="fa fa-phone"></i> +38 (063) 230-37-97</li>
+                        <li><i class="fa fa-phone"></i> +38 (057) 750-98-48</li>
+                        <li><i class="fa fa-envelope"></i> romankin@mail.ru</li>
+                        <li><i class="fa fa-skype"></i> djromankin</li>
+                        <li><i class="fa fa-icq"></i> 58-2959-148</li>
+                        <li><i class="fa fa-vk"></i><a href="http://vk.com/djromankin">http://vk.com/djromankin</a></li>
+                    </ul>
+
+                    <h4 class="title small">Сергей Долгих</h4>
+                    <div class="voffset20"></div>
+                    <ul class="contact">
+                        <li><i class="fa fa-phone"></i> +38 (067) 732-46-14</li>
+                        <li><i class="fa fa-phone"></i> +38 (095) 007-26-89</li>
+                        <li><i class="fa fa-phone"></i> +38 (093) 074-24-25</li>
+                    </ul>
+
+                    <h4 class="title small">Мы в социальных сетях</h4>
+                    <ul class="social-links">
+                        <li><a href="#"><i class="fa fa-vk"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
-      </div>
-    </section>
-    
-    <!-- TWITTER -->
-    <section class="section twitterfeed inverse-color full-width parallax-section" data-parallax-image="images/demo/twitter/bg-twitter.jpg">
-      <div class="container">
+    </div>
+</section>
+
+<!-- TWITTER -->
+<section class="section twitterfeed inverse-color full-width parallax-section"
+         data-parallax-image="images/demo/twitter/bg-twitter.jpg">
+    <div class="container">
         <div class="row">
-          <div class="col-md-12">
-            <i class="fa fa-twitter"></i>
-            <div id="twitter-feed"></div>
-          </div>
+            <div class="col-md-12">
+                <i class="fa fa-twitter"></i>
+                <div id="twitter-feed"></div>
+            </div>
         </div>
-      </div>
-    </section>
-    
-    <!-- FOOTER -->
-    <footer>
-      <div class="container">
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="container">
         <p class="copy">© 2016. All Rights Reserved. Designed by JellyThemes</p>
         <ul class="menu-footer">
-          <li><a href="#">disclaimer</a></li>
-          <li><a href="#">terms & conditions</a></li>
-          <li><a href="#">privacy policy</a></li>
+            <li><a href="#">disclaimer</a></li>
+            <li><a href="#">terms & conditions</a></li>
+            <li><a href="#">privacy policy</a></li>
         </ul>
-      </div>
-    </footer>
+    </div>
+</footer>
 
-    <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='//www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+    (function (b, o, i, l, e, r) {
+        b.GoogleAnalyticsObject = l;
+        b[l] || (b[l] =
+            function () {
+                (b[l].q = b[l].q || []).push(arguments)
+            });
+        b[l].l = +new Date;
+        e = o.createElement(i);
+        r = o.getElementsByTagName(i)[0];
+        e.src = '//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');
+</script>
 
-    <script src="scripts/plugins.js"></script>
+<script src="scripts/plugins.js"></script>
 
-    <script src="scripts/main.js"></script>
+<script src="scripts/main.js"></script>
 
-    <script src="scripts/colorpicker.js"></script>
+<script src="scripts/colorpicker.js"></script>
 
-    <script src="scripts/vendor/bootstrap.js"></script>
+<script src="scripts/vendor/bootstrap.js"></script>
 
-  </body>
+</body>
 </html>
