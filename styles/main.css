@@ -10191,12 +10191,19 @@ textarea {
     color: #ed2b45
 }
 
+.title.post a {
+    color: #ed2b45;
+}
+.title.post a:hover {
+    text-decoration: none;
+    color: #151518;
+}
 .title.post {
     font-family: Roboto, sans-serif;
     font-size: 25px;
     font-weight: 300;
     line-height: 30px;
-    letter-spacing: 4.3px;
+    letter-spacing: 2px;
     text-transform: uppercase;
     text-align: left;
     color: #151518;
@@ -11144,7 +11151,6 @@ footer ul.menu-footer li, footer ul.menu-footer li a {
     .primary-title {
         font-size: 100px;
         line-height: 90px;
-        letter-spacing: 20px
     }
 }
 
@@ -12533,7 +12539,7 @@ p.date span.month {
 }
 
 .list-posts p {
-    line-height: 30px;
+    line-height: 28px;
     color: #8b8b8b
 }
 
@@ -13860,8 +13866,8 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 
 @media (min-width: 1600px) {
     .upcomming-events-list li .name {
-        max-width: 505px;
-        width: 505px;
+        max-width: 705px;
+        width: 705px;
         padding: 16px 65px
     }
 }
@@ -13914,7 +13920,8 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
     padding: 19px 20px;
     text-transform: uppercase;
     font-size: 12px;
-    font-weight: 500
+    font-weight: 500;
+    border-left: 1px solid rgba(43, 43, 43, .9);
 }
 
 @media (min-width: 768px) {
@@ -13937,7 +13944,8 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 }
 
 .upcomming-events-list li .buy {
-    text-align: center
+    text-align: center;
+    float: right;
 }
 
 @media (min-width: 768px) {
@@ -14438,6 +14446,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
     margin-bottom: 38px
 }
 
+.page-content p,
 .post-details p {
     line-height: 28px;
     margin-bottom: 20px;
