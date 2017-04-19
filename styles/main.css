@@ -10995,10 +10995,36 @@ footer {
     overflow: hidden
 }
 
+footer p {
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: -.5px
+}
 footer p.copy {
     float: left;
-    font-size: 13px;
-    letter-spacing: -.5px
+}
+
+footer p.created-by {
+    float: right;
+    text-transform: none;
+}
+footer p.created-by a {
+    float: right;
+}
+footer p.created-by a * {
+    float: left;
+    margin-left: 5px;
+}
+footer p.created-by a img {
+    height: 22px;
+}
+
+footer a, footer a span {
+    color: #ffffff;
+    text-decoration: underline;
+}
+footer a:hover, footer a span:hover {
+    text-decoration: none;
 }
 
 footer ul.menu-footer {
