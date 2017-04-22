@@ -11087,6 +11087,10 @@ footer ul.menu-footer li, footer ul.menu-footer li a {
     transform: translate3d(0, -100%, 0)
 }
 
+.intro .text-overlay .logo-intro img {
+    height: 70px;
+}
+
 .loaded .intro .text-overlay .logo-intro {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
@@ -13849,7 +13853,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
     font-size: 40px;
     font-weight: 800;
     line-height: 29px;
-    padding: 26px 15px 16px
+    padding: 20px 15px 16px
 }
 
 @media (min-width: 768px) {
@@ -13862,7 +13866,7 @@ ul.slider-twitter .flickity-page-dots .dot.is-selected {
 
 @media (min-width: 1600px) {
     .upcomming-events-list li .date-event {
-        padding: 26px 30px 16px
+        padding: 20px 30px 16px
     }
 }
 
